@@ -1,0 +1,98 @@
+@font-face {
+    font-family: myFont;
+    src: url('./fonts/Blacknorthdemo-mLE25.otf');
+}
+
+body {
+    background-image: url("./img/wave-animation.jpg");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    font-family: myFont;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    height: 80vh;
+
+}
+
+h1 {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#save-el {
+    color: rgb(26, 36, 36);
+    font-size: 18px;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #c24d2c;
+}
+
+#save-btn {
+    background: #38598b;
+    border
+}
+
+#reset-btn {
+    background: rgb(102, 102, 102);
+}
+
+.main  {
+    background: white;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+
+@media screen and (max-width: 700px) {
+    .main  {
+        background: white;
+        width: 70%;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid black;
+    }
+    body {
+        background-image: url("./img/wave-animation.jpg");
+        background-size: cover; 
+        /* background-repeat: no-repeat;*/
+        background-attachment: fixed;
+        font-family: myFont;
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+        height: 100vh;
+    
+    }
+
+    
+}
+
